@@ -1,15 +1,12 @@
 # Data Visualization: Pola Pemilihan Mata Kuliah Mahasiswa
 
-Proyek Data Visualization untuk mata kuliah **Data Mining (Pertemuan 6)**.
-
-- **Nama / NIM:** (isi nama dan NIM)
-- **Notebook:** [`NIMDataVisualization.ipynb`](NIMDataVisualization.ipynb) | [Google Colab](GANTI_DENGAN_LINK_COLAB)
-
+- **Nama :Yohanes Tiyas Prasetiyo
+- NIM    :2318125
+  
 ## Dataset
-- **File:** `data/clean_data_anonim.csv` (kolom nama dan NIM dihapus untuk menjaga privasi)
+- **File:** `data/clean_data_anonim.csv`
 - **Ukuran:** 100 mahasiswa, 16 kolom, tanpa missing value dan tanpa duplikat
 - **Isi:** 9 kolom biner pilihan mata kuliah (1 = dipilih), `jumlah_pilihan`, `kategori_beban` (Ringan 1-3, Sedang 4-5, Tinggi 6-9), dan 4 kolom jumlah pilihan per rumpun keilmuan
-- **Sumber:** (isi sumber/asal data, misalnya data kelas)
 
 ## Tujuan
 Mengeksplorasi mata kuliah yang diminati, sebaran beban pilihan, dominasi rumpun keilmuan, dan keterkaitan antar mata kuliah.
@@ -37,11 +34,4 @@ Bar chart, histogram, boxplot, heatmap (korelasi, co-occurrence, profil per kate
 3. Jalankan semua sel (`Runtime > Run all`).
 
 Library: pandas, numpy, matplotlib, seaborn, plotly.
-
-## Struktur Repository
-```
-├── NIMDataVisualization.ipynb
-├── README.md
-├── data/clean_data_anonim.csv
-└── images/*.png
 ```
